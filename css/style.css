@@ -84,10 +84,22 @@ header h3{
 .servicio{
 	float: left;
 	width: 33%;
-
+	padding-left: 20px;
+	box-sizing: border-box;
 }
 
 .servicio .boton{
 	display: inline-block;
 	margin-top: 20px;
+}
+
+.columnas{
+	-moz-column-count: 2;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.quienessomos h2{
+	font-size: 30px;
+	text-transform: uppercase
 }
