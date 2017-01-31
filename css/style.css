@@ -66,11 +66,13 @@ header h3{
 .servicios h2{
 	font-size: 30px;
 	text-transform: uppercase;
+	margin-top: 20px;
 }
 
 .servicio h3{
 	font-size: 25px;
 	color: #333;
+	margin-bottom: 15px;
 }
 
 .servicio .boton{
@@ -84,8 +86,9 @@ header h3{
 .servicio{
 	float: left;
 	width: 33%;
-	padding-left: 20px;
+	padding: 20px;
 	box-sizing: border-box;
+
 }
 
 .servicio .boton{
@@ -93,13 +96,29 @@ header h3{
 	margin-top: 20px;
 }
 
-.columnas{
+/*.columnas{
 	-moz-column-count: 2;
 	padding: 20px;
 	box-sizing: border-box;
-}
+}*/
 
 .quienessomos h2{
 	font-size: 30px;
 	text-transform: uppercase
+}
+
+.columna1{
+	position: relative;
+	width: 400px;
+}
+
+.columna2{
+	position: relative;
+	width: 400px;
+}
+
+.quienessomos article{
+	display: inline-block;
+	margin: 20px 20px 0 40px;
+	padding-left: 10px;
 }
